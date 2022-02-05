@@ -8,7 +8,6 @@ import {
   Container,
   Flex,
   HStack,
-  Icon,
   Image,
   Link,
   Menu,
@@ -164,6 +163,18 @@ export const Layout = ({ children, customMeta }: LayoutProps): JSX.Element => {
       </main>
       <footer>
         {/* Add technologies used here */}
+        <Container mt="8" py="8" maxWidth="container.xl" centerContent>
+          <Text fontSize="lg" color="gray.600">Powered by</Text>
+            <HStack>
+            <Link href="https://github.com/GazellePay" isExternal>
+              <Image 
+              htmlWidth='120rem'
+              src='https://user-images.githubusercontent.com/9114705/152164461-aeb383ef-1f54-49ee-84ff-e4b9fbb3c250.png' 
+              alt='Polygon Logo' 
+              />
+            </Link>
+            </HStack>
+        </Container>
       </footer>
     </Box>
   )
