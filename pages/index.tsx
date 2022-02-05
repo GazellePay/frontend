@@ -157,7 +157,7 @@ function HomeIndex(): JSX.Element {
             objectFit="contain"
           />
         </AspectRatio>
-        <Heading as="h1" fontSize="3xl">
+        <Heading as="h1" fontSize="3xl" color="#fff">
           Fund An Opensource Project The Web3 Way
         </Heading>
       </VStack>
@@ -190,7 +190,7 @@ function HomeIndex(): JSX.Element {
           </VStack>
         </Flex>
       ) : (
-        <Heading my="auto">Please connect to a wallet to continue</Heading>
+        <Heading my="auto" color="#fff">Please connect to a wallet to continue</Heading>
       )}
     </Layout>
   )
