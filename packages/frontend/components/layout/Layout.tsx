@@ -26,7 +26,6 @@ import { Balance } from '../Balance'
 import { ConnectWallet } from '../ConnectWallet'
 import { Head, MetaProps } from './Head'
 
-import { FiGithub } from 'react-icons/fi'
 
 // Extends `window` to add `ethereum`.
 declare global {
