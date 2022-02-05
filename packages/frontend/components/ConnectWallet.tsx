@@ -24,7 +24,7 @@ export function ConnectWallet(): JSX.Element {
         order={[-1, null, null, 2]}
         textAlign={['left', null, null, 'right']}
       >
-        <Button colorScheme="teal" variant="outline" onClick={onOpen}>
+        <Button color="#fff" _hover={{background: "white",color: "gray.500",}} variant="outline" onClick={onOpen}>
           Connect to a wallet
         </Button>
       </Box>

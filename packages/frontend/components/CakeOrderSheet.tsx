@@ -156,7 +156,7 @@ const CakeOrderSheet = ({ sendCheesecake, isLoading }: Props) => {
           </Text>
         </Flex>
 
-        <Button mt={4} bg="gray.800" isLoading={isLoading} type="submit">
+        <Button mt={4} bg="gray.800" _hover={{background: "gray.500",color: "#000",}} isLoading={isLoading} type="submit">
         <Text as="b" fontSize="xl" color="white">
             Send Donation
           </Text>
