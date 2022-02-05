@@ -1,6 +1,9 @@
 {
   "name": "nextjs-ethereum-starter",
   "version": "1.0.0",
+  "engines": {
+    "node": "14.x"
+  },
   "private": true,
   "scripts": {
     "dev": "yarn workspace frontend dev",
