@@ -70,7 +70,7 @@ export const Layout = ({ children, customMeta }: LayoutProps): JSX.Element => {
   }
 
   return (
-    <Box height="full" bg="teal.50" minH="100vh">
+    <Box height="full" bg="gray.800" minH="100vh">
       <Head customMeta={customMeta} />
       <header>
         <Container maxWidth="container.xl">
@@ -82,7 +82,7 @@ export const Layout = ({ children, customMeta }: LayoutProps): JSX.Element => {
           >
             <Flex py={[4, null, null, 0]}>
               <NextLink href="/" passHref>
-                <Link px="4" py="1">
+                <Link px="4" py="1" color="#fff">
                   Home
                 </Link>
               </NextLink>
@@ -168,7 +168,7 @@ export const Layout = ({ children, customMeta }: LayoutProps): JSX.Element => {
             <Link href="https://github.com/GazellePay" isExternal>
               <Image 
               htmlWidth='120rem'
-              src='https://user-images.githubusercontent.com/9114705/152164461-aeb383ef-1f54-49ee-84ff-e4b9fbb3c250.png' 
+              src='/images/polygon-logo-white.svg' 
               alt='Polygon Logo' 
               />
             </Link>

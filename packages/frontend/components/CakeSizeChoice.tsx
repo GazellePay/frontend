@@ -25,9 +25,9 @@ const CakeSizeChoice = (props: Props & UseRadioProps) => {
         borderRadius="md"
         boxShadow="md"
         _checked={{
-          bg: 'teal.600',
+          bg: 'black',
           color: 'white',
-          borderColor: 'teal.600',
+          borderColor: 'gray.800',
         }}
         _focus={{
           boxShadow: 'outline',

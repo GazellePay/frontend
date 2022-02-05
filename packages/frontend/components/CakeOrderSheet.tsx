@@ -89,7 +89,7 @@ const CakeOrderSheet = ({ sendCheesecake, isLoading }: Props) => {
       <VStack
         spacing={8}
         p={8}
-        borderColor="teal.500"
+        borderColor="black"
         borderWidth={3}
         rounded="lg"
         boxShadow="lg"
@@ -151,13 +151,15 @@ const CakeOrderSheet = ({ sendCheesecake, isLoading }: Props) => {
 
         {/* Insert order sheet here */}
         <Flex flexDir="column" justifyContent="center" alignItems="center">
-          <Text as="b" fontSize="xl">
+          <Text as="b" fontSize="md">
             Price: {price} MATIC
           </Text>
         </Flex>
 
-        <Button mt={4} colorScheme="teal" isLoading={isLoading} type="submit">
-          Send Donation
+        <Button mt={4} bg="gray.800" isLoading={isLoading} type="submit">
+        <Text as="b" fontSize="xl" color="white">
+            Send Donation
+          </Text>
         </Button>
       </VStack>
     </form>

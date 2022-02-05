@@ -36,9 +36,9 @@ const DonationItem = ({ item }: Props) => {
   return (
     <HStack borderLeftWidth={2} borderColor="gray.400" spacing={0} py={4}>
       {/* Dot */}
-      <Circle w={5} h={5} bg="teal.500" transform="translateX(-10px)">
+      <Circle w={5} h={5} bg="#fff" transform="translateX(-10px)">
         <MdOutlineNavigateNext
-          color="#fff"
+          color="#000"
           style={{ transform: 'rotate(-90deg)' }}
         />
       </Circle>
@@ -46,18 +46,18 @@ const DonationItem = ({ item }: Props) => {
       <Box
         h={0.5}
         w={10}
-        bg="teal.300"
+        bg="#fff"
         rounded="full"
         m={0}
         p={0}
         transform="translateX(-10px)"
       />
       <VStack
-        bg="teal.50"
+        bg="#fff"
         px={4}
         py={4}
         rounded="lg"
-        borderColor="teal.500"
+        borderColor="gray.500"
         borderWidth={3}
         boxShadow="md"
         transform="translateX(-10px)"

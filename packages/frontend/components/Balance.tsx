@@ -21,5 +21,5 @@ export function Balance(): JSX.Element {
     fetchBalance()
   })
 
-  return <Text>{balance} MATIC</Text>
+  return <Text color="#fff">{balance} MATIC</Text>
 }
