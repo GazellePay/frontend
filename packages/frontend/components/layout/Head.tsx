@@ -29,7 +29,7 @@ export const Head = ({
   const meta: MetaProps = {
     title: 'GazellePay',
     description: 'GoFundMe for Opensource Projects the Web3 Way :)',
-    // image: `/images/site-preview.png`,
+    image: `/images/GazellePay.png`,
     type: 'website',
     ...customMeta,
   }
