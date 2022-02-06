@@ -1,25 +1,26 @@
 {
-  "name": "nextjs-ethereum-starter",
-  "version": "1.0.0",
-  "engines": {
-    "node": "14.x"
-  },
-  "private": true,
-  "scripts": {
-    "dev": "yarn workspace frontend dev",
-    "build": "yarn workspace frontend build",
-    "start": "yarn workspace frontend start",
-    "chain": "yarn workspace hardhat chain",
-    "deploy": "yarn workspace hardhat deploy",
-    "compile": "yarn workspace hardhat compile"
-  },
-  "workspaces": {
-    "packages": [
-      "packages/*"
-    ],
-    "nohoist": [
-      "**/hardhat",
-      "**/hardhat/**"
-    ]
+    "name": "nextjs-ethereum-starter",
+    "version": "1.0.0",
+    "engines": {
+      "node": "14.x"
+    },
+    "private": true,
+    "scripts": {
+      "dev": "yarn workspace frontend dev",
+      "build": "yarn workspace frontend build",
+      "start": "yarn workspace frontend start",
+      "chain": "yarn workspace hardhat chain",
+      "deploy": "yarn workspace hardhat deploy",
+      "compile": "yarn workspace hardhat compile"
+    },
+    "workspaces": {
+      "packages": [
+        "packages/*"
+      ],
+      "nohoist": [
+        "**/hardhat",
+        "**/hardhat/**"
+      ]
+    }
   }
-}
+  
