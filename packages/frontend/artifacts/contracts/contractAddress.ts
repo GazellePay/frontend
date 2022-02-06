@@ -1,2 +1,2 @@
-export const CheesecakePortalContract = '0xc92f903BCCDa707FDa0eA02222D6AF7dB0CBb0b4'
-export const MulticallContract = '0x151AEf70f9602C735a142d808D82D0E8529c7238'
+export const CheesecakePortalContract = '0x72501A5F53e66937E90747B20bc0178b4b0eB42F'
+export const MulticallContract = '0xa5C4Dc203E6109034D446C82e22913FaDE20b331'

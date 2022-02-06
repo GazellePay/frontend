@@ -91,7 +91,7 @@ const DonationItem = ({ item }: Props) => {
               </Text>
               <Text fontSize="sm" fontWeight="semibold" alignSelf="flex-start">
                 {item?.name} sent a {mapping[item?.cakeSize?.toNumber()]}{' '}
-                Cheesecake
+                Donation
               </Text>
             </VStack>
 
