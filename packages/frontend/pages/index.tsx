@@ -165,10 +165,11 @@ function HomeIndex(): JSX.Element {
       {library ? (
         <Flex
           w="full"
+          flexDir={{base: 'column', lg:'row'}}
           justifyContent="space-around"
           alignItems="center"
           maxWidth="container.lg"
-          height="80vh"
+          height={{base: "full", lg:"80vh"}}
         >
           {/* Form */}
           <CakeOrderSheet
