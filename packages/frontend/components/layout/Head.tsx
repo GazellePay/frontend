@@ -5,7 +5,7 @@ import React from 'react'
 /**
  * Constants & Helpers
  */
-export const WEBSITE_HOST_URL = 'https://nextjs-ethereum-starter.vercel.app/'
+export const WEBSITE_HOST_URL = 'https://gazellepayments.herokuapp.com/'
 
 /**
  * Prop Types
@@ -29,7 +29,7 @@ export const Head = ({
   const meta: MetaProps = {
     title: 'GazellePay',
     description: 'GoFundMe for Opensource Projects the Web3 Way :)',
-    // image: `/images/site-preview.png`,
+    image: `/images/GazellePay.png`,
     type: 'website',
     ...customMeta,
   }

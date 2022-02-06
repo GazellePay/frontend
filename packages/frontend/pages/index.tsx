@@ -151,7 +151,7 @@ function HomeIndex(): JSX.Element {
       <VStack alignItems="center" mb={8} height="full">
         <AspectRatio ratio={1} width="6rem">
           <Image
-            src="/images/gazellepay.svg"
+            src="/images/GazellePay.png"
             alt="Image of a Gazelle Pay logo"
             layout="fill"
             objectFit="contain"
@@ -165,10 +165,11 @@ function HomeIndex(): JSX.Element {
       {library ? (
         <Flex
           w="full"
+          flexDir={{base: 'column', lg:'row'}}
           justifyContent="space-around"
           alignItems="center"
           maxWidth="container.lg"
-          height="80vh"
+          height={{base: "full", lg:"80vh"}}
         >
           {/* Form */}
           <CakeOrderSheet
