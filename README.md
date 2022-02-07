@@ -1,6 +1,7 @@
 **GazellePay**
 
 
+<img width="813" alt="GazellePay Dashboard" src="https://user-images.githubusercontent.com/9114705/152884315-af57f944-cd5d-43f1-ad95-82c33ca83cd7.png">
 
 
 
